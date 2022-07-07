@@ -612,6 +612,26 @@ section {
   padding-bottom: 0;
 }
 
+.about-tx {
+  margin-left: 20px;
+}
+
+.b-service .b-service-text h1 {
+  color: #f13c20;
+}
+
+.b-service .b-service-text p {
+  text-align: justify;
+}
+
+.other-service {
+  margin-top: 20px;
+}
+
+.other-service h2 {
+  color: #f13c20;
+}
+
 .why-us .img-bg {
   min-height: 500px;
   background-size: cover;
@@ -1439,6 +1459,11 @@ section {
   padding: 0;
 }
 
+.gallery {
+  position: relative;
+  min-height: 100vh;
+}
+
 .gallery .img-container {
   display: flex;
   flex-wrap: wrap;
@@ -1480,8 +1505,8 @@ section {
 .gallery .popup-image span {
   position: absolute;
   top: 0;
-  right: 10px;
-  font-size: 40px;
+  right: 0;
+  font-size: 60px;
   font-weight: bolder;
   color: #fff;
   cursor: pointer;
@@ -1496,6 +1521,7 @@ section {
   border: 5px solid #fff;
   border-radius: 5px;
   width: 300px;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -1504,6 +1530,8 @@ section {
     width: 95%;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Contact Section

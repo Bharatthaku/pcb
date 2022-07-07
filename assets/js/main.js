@@ -224,5 +224,19 @@ document.querySelectorAll('.img-container img').forEach(image =>{
 
 document.querySelector('.popup-image span').onclick = () =>{
   document.querySelector('.popup-image').style.display = 'none';
-}
+};
 
+
+
+
+var fullimgBox = document.getElementById("fullimgBox");
+var fullimg = document.getElementById("fullimg");
+
+function openfullimg(pic) {
+  fullimgBox.style.display = "flex";
+  fullimg.src = pic;
+};
+
+function closefullimg() {
+  fullimgBox.style.display = "none";
+};
